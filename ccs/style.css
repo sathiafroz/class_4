@@ -1,0 +1,146 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: sans-serif;
+	box-sizing: border-box;
+	background-size: cover;
+}
+.container{
+	width: 80%;
+	margin: 0 auto;
+}
+header{
+	min-height: 80px;
+	background: #121B2A;
+	overflow: hidden;
+}
+header img{
+	width: 20%;
+	height: 70px;
+	float: left;
+	padding-top: 5px;
+
+}
+header nav{
+	float: right;
+	width: 80%;
+}  
+header nav ul{
+	padding-top: 30px;
+}
+header nav ul li{
+	display: inline-block;
+	margin-right: 10px;
+}
+header nav ul li a{
+	text-decoration: none;
+	color: #fff;
+	font-family: serif;
+	font-size: 20px;
+	transition: color 2s;
+	padding-left: 60px;
+}
+header nav ul li a:hover{
+	color: blue;
+}
+.banner{
+	height: 400px;
+	background: url(../images/banner2.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.banner h3{
+	font-size: 25px;
+	padding-top: 100px;
+	color: #fff;
+	margin-bottom: 15px;
+	font-family: aril;
+}
+.banner h2{
+	font-size: 30px;
+	color: #00ffff;
+	margin-bottom: 10px;
+	font-family: aril;
+}
+.banner p{
+	color: #fff;
+	font-family: aril; 
+}
+.banner p.last{
+	margin-bottom: 25px;
+}
+.banner button{
+	padding: 10px 15px;
+	border: none;
+	border-radius: 4px;
+	transition: background 2s, color 1s;
+}
+.banner button:hover{
+	background: orange;
+	color: green;
+}
+.services{
+	background: #121B2C;
+	overflow: hidden;
+	padding: 40px 0px;
+}
+.services_box{
+	float: left;
+	margin-right: 3%;
+	width: 30%;
+	color: #FFFFFF;
+	border-right: 2px solid #fff;
+	font-family: serif;
+}
+.services_box:last-child{
+	border-right:0;
+}
+.contant{
+	margin-bottom: 9px;
+	overflow: hidden;
+}
+.contant img{
+	height: 100px;
+	margin-right: 5px;
+	float: left;
+}
+footer{
+	min-height: 70px;
+	background: #121B2C;
+	overflow: hidden;
+	color: #fff;
+	border-top: 1px solid #000;
+}
+.footer_1{
+	float: left;
+	padding-top: 10px;
+}
+.footer_nav{
+	margin-bottom: 10px;
+}
+.footer_nav ul{
+	padding-top: 10px;
+	height: 30px;
+}
+.footer_nav ul li{
+	padding-right: 10px;
+	display: inline-block;
+}
+.footer_nav ul li a{
+	text-decoration: none;
+	color: #fff;
+	font-family: serif;
+	font-size: 15px;
+}
+.footer_1 p{
+	font-family: serif;
+	padding-bottom: 10px;
+}
+footer img{
+	height: 70px;
+	padding-top: 5px;
+	float: right;
+	padding-bottom: 50px
+}
